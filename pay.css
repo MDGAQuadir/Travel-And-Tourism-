@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #029D9D;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #029D9D;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #029D9D;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #029D9D;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #071515;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #upi_details, #card_details {
+    display: none;
+  }
+  
+  /* Add more styles as needed */
